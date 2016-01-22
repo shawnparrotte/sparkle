@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "authors": [
+    "Shawn Parrotte <shawnparrotte@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "backbone": "~1.2.3"
+  }
+}
