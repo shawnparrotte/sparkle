@@ -1,0 +1,53 @@
+h1 {
+  color: green; }
+
+body {
+  background-color: black; }
+
+#sky {
+  height: 1400px;
+  background-color: black; }
+
+.sparkle-container {
+  position: absolute; }
+
+.sparkle {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  top: -10px;
+  left: 21px;
+  z-index: -200;
+  border-radius: 60px;
+  background-color: white;
+  transform: scale(0.5);
+  transition: transform .3s; }
+
+.top-shelf, .bottom-shelf {
+  top: -40px;
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+  position: absolute;
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: black;
+  margin: 3px 0;
+  padding: 0;
+  transform: scale(1.5);
+  transition: transform .3s; }
+
+.top-right {
+  left: 50px; }
+
+.bottom-left {
+  top: 50px; }
+
+.bottom-right {
+  top: 50px;
+  left: 50px; }
